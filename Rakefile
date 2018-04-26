@@ -21,3 +21,7 @@ task :default => "pkg/#{spec.name}-#{spec.version}.gem" do
     puts "generated latest version"
 end
 
+hwy{
+    'name':'handsome-boy'
+    'sex':'man'
+}
