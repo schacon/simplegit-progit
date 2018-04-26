@@ -1,4 +1,4 @@
-require 'rubygems'
+
 Gem::manage_gems
 require 'rake/gempackagetask'
 
@@ -25,3 +25,5 @@ hwy{
     'name':'handsome-boy'
     'sex':'man'
 }
+
+add by hwy at 20180426-1803
