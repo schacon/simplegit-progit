@@ -1,4 +1,4 @@
-require 'rubygems'
+
 Gem::manage_gems
 require 'rake/gempackagetask'
 
@@ -21,3 +21,9 @@ task :default => "pkg/#{spec.name}-#{spec.version}.gem" do
     puts "generated latest version"
 end
 
+hwy{
+    'name':'handsome-boy'
+    'sex':'man'
+}
+
+add by hwy at 20180426-1803
