@@ -13,7 +13,10 @@
     (function() {
       const iCounter = document.getElementById('counter');
       const bIncrement = document.getElementById('increment');
-      bIncrement.onclick = () => iCounter.value++;
+      bIncrement.onclick = () => {
+        alert('Increment!');
+        iCounter.value = +iCounter.value + 1;
+      }
     })();
   </script>
 </body>
