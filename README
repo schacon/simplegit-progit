@@ -3,4 +3,8 @@ SimpleGit Ruby Library
 
 This library calls git commands and returns the output.
 
+<<<<<<< HEAD
 Author : Scott Chacon (Add ME to the Master)
+=======
+Local Author : Me
+>>>>>>> testing
