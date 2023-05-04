@@ -22,5 +22,11 @@ class SimpleGit
 	  return `#{git_cmd} 2>$1`.chomp
 	end
     end
+
+    def lsfiles(ls_files)
+	Dir.ls(@git_ls) do
+	  return `#{git_cmd} 2>$1`.chomp
+	end
+    end 
   
 end
