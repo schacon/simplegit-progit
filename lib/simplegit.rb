@@ -16,5 +16,11 @@ class SimpleGit
         return `#{git_cmd} 2>&1`.chomp
       end
     end
+
+    def lstree(ls_tree)
+	Dir.chdir(@git_dir) do
+	  return `#{git_cmd} 2>$1`.chomp
+	end
+    end
   
 end
