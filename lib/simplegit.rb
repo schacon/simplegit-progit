@@ -9,12 +9,12 @@ class SimpleGit
     command("git show #{treeish}")
   end
 
-  private
+#  private
   
-    def command(git_cmd)
-      Dir.chdir(@git_dir) do
-        return `#{git_cmd} 2>&1`.chomp
-      end
-    end
+#    def command(git_cmd)
+#      Dir.chdir(@git_dir) do
+#        return `#{git_cmd} 2>&1`.chomp
+#      end
+#    end
   
 end
